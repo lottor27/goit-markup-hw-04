@@ -439,15 +439,15 @@ img {
 }
 
 .customers-box:hover {
+  border: 1px solid #404bbf;
+}
+
+.customers-box:hover .customers-icons {
   fill: #404bbf;
 }
 
 .customers-icons {
   fill: #8e8f99;
-}
-
-.customers-icons:hover {
-  fill: #404bbf;
 }
 
 .customers-link {
