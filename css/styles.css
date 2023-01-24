@@ -273,7 +273,6 @@ img {
 
 .feature-item-cont {
   margin-bottom: 8px;
-
 }
 .feature-text {
   font-size: 16px;
@@ -283,21 +282,18 @@ img {
 }
 
 .feature-icons-cont {
-
-
 }
 
-.feature-box{
-width: 264px;
-height: 112px;
-background: #f4f4fd;
-margin-bottom: 8px;
-background: #f4f4fd;
-border-radius: 4px;
-display: flex;
-align-items: center;
-justify-content: center;
-
+.feature-box {
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* App */
 .app {
@@ -448,29 +444,30 @@ justify-content: center;
 .customers-box {
   width: 168px;
   height: 88px;
+}
+
+.customers-link {
+  width: 100%;
+  height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #8e8f99;
 }
 
-.customers-box:hover {
+.customers-link:hover,
+.customers-link:focus {
   border: 1px solid #404bbf;
 }
 
-.customers-box:hover .customers-icons {
+.customers-link:hover,
+.customers-link:focus .customers-icons {
   fill: #404bbf;
 }
 
 .customers-icons {
-  fill: #8e8f99;
-}
-
-.customers-link {
-  
-  
-  
 }
 
 /* Footer */
@@ -537,7 +534,6 @@ justify-content: center;
 .footer-social-item {
   width: 40px;
   height: 40px;
-
 }
 
 .footer-social-link:hover,
