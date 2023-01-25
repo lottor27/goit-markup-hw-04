@@ -154,14 +154,13 @@ img {
 /* height: 4px; */
 /* background-color: #4d5ae5; */
 /* border-radius: 2px; */
+/*  */
 
-/*    */
-/* } */
-
-/* .logo-link:hover */
-/* { color: #4d5ae5; */
 /* } */
 /*  */
+.logo-link:hover {
+  color: #4d5ae5;
+}
 
 .logo-link:active {
   color: #4d5ae5;
@@ -663,6 +662,7 @@ img {
 
 .portfolio-list-items {
   outline-color: #e7e9fc;
+  cursor: pointer;
 }
 
 .list-items-text-cont {
